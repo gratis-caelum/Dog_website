@@ -1,0 +1,245 @@
+# ==================== Node.js ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==================== Environment Variables ====================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+*.env
+
+# ==================== Build & Distribution ====================
+dist/
+build/
+out/
+target/
+
+# ==================== Frontend (Vue.js) ====================
+# Vite
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Build outputs
+dist-ssr/
+coverage/
+*.tsbuildinfo
+
+# ==================== Backend ====================
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Django/Flask
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/uploads/
+instance/
+.webassets-cache
+
+# ==================== Database ====================
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+db/
+database/
+migrations/versions/
+dumps/
+*.pgsql
+*.mongodb
+
+# ==================== Logs ====================
+logs/
+*.log
+error.log
+access.log
+combined.log
+
+# ==================== IDEs & Editors ====================
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains
+.idea/
+*.swp
+*.swo
+*~
+
+# Other editors
+*.sublime-workspace
+*.sublime-project
+
+# ==================== OS ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ==================== Cache & Temporary ====================
+.cache/
+.parcel-cache/
+.eslintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ==================== Testing ====================
+coverage/
+.lcov
+.nyc_output/
+junit.xml
+test-results/
+playwright-report/
+jest_0
+
+# ==================== AI & ML Models ====================
+# Large model files (use Git LFS if needed)
+models/
+*.pkl
+*.h5
+*.pb
+*.onnx
+*.pt
+*.pth
+checkpoints/
+trained_models/
+
+# ==================== Media & Uploads ====================
+uploads/
+user_uploads/
+static/uploads/
+media/uploads/
+# Uncomment below if you want to exclude all images
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+
+# ==================== Docker ====================
+.dockerignore
+docker-compose.override.yml
+
+# ==================== SSL/TLS & Secrets ====================
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+ssl/
+certs/
+secrets/
+.secrets
+api-keys.json
+credentials.json
+*-credentials.json
+service-account-key.json
+firebase-adminsdk-*.json
+
+# ==================== Backup Files ====================
+*.bak
+*.backup
+*.old
+*.orig
+backup/
+backups/
+
+# ==================== Production Configuration ====================
+config/production.*
+config/prod.*
+production.env
+
+# ==================== Miscellaneous ====================
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Local development
+.local/
+local/
+
+# Storybook build outputs
+storybook-static/
+
+# ==================== Project Specific ====================
+# 개발 중 생성될 수 있는 임시 파일들
+todo.txt
+notes.md
+scratch.js
+test.py
+debug.log
+
+# 상품 이미지 업로드 폴더 (실제 운영에서는 CDN 사용 권장)
+public/uploads/
+static/product-images/
+
+# API 문서 생성 파일들
+api-docs/build/
+swagger-output.json
